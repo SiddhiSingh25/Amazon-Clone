@@ -8,7 +8,7 @@
     display: none;
 }
 .navbar{
-height:60px;
+height:4vw;
 background-color: #0f1111;
 color:white;
 padding:4px;
@@ -366,13 +366,17 @@ padding:12px 5px 0px 7px;
 .fa-bars, nav{
     display:flex;
     font-weight: 600;
-    
+    font-size: 2.5vh;
 }
 .navbar{
     justify-content: space-around;
+    height:5.6vh;
+    padding:4px;
 }
       /**box1**/   
-
+.logo{
+height:5.2vh;
+}
 .deliver{
     display: none;
 }
