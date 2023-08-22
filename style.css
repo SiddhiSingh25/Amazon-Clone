@@ -20,7 +20,6 @@ justify-content: space-evenly;
 .nav_logo{
     height: 50px;
     width:113px;
-    
 }
 .logo{
     height:50px;
@@ -370,12 +369,15 @@ padding:12px 5px 0px 7px;
 }
 .navbar{
     justify-content: space-around;
-    height:5.6vh;
+    height:6vh;
     padding:4px;
 }
-      /**box1**/   
+.nav_logo{
+    height: 5.5vh;
+    width:113px;
+}  
 .logo{
-height:5.2vh;
+height:5.4vh;
 }
 .deliver{
     display: none;
@@ -414,9 +416,9 @@ height:5.2vh;
  display: none;
 }
 .cart {
-    width: 60px;
-    height: 60px;
-    background-color: #0f1111;
+    width: 8vh;
+    height: 6vh;
+    background-color:none;
     color: #ffffff;
     display: flex;
     justify-content: space-evenly;
@@ -425,15 +427,15 @@ height:5.2vh;
     overflow: hidden;
 }
 .user{
-    gap: 4.2px;
+    /*gap: 4.2px;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4vw;
-    font-weight: 500;
-    height: 65px;
-    width: 90px;
-    margin-left: 90px;
+    font-size: 1.5vh;
+    font-weight: 600;
+    height: 6vh;
+    width: 10vh;
+    margin-left: 10.5vh;
 }
 .user i{
     font-size: 29px;
@@ -447,7 +449,7 @@ height:5.2vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 5.8vh;
     width: 100vw;
     background-color: #222f3d;
 }
@@ -481,7 +483,7 @@ input{
     display: inline-block;
     width:10%;
     height:38px;
-    padding:0px 0px 0px 2px;
+    padding:0px 0px 0px 0.4vh;
     font-size: .8rem;
     border:none;
     background-color: #f3f3f3;
@@ -574,5 +576,35 @@ input{
     height: 14px;
     width: 18px;
 }
-
+.foot-part3{
+    height: 7vh;
+}
+.foot-part4{
+    background-color: #131a22;
+    color: #dddddd;
+    height: 4vh;
+    font-size: 12px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    
+}
+.foot-part4 li{
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.foot-part5{
+    background-color: #131a22;
+    color: #dddddd;
+    height: 35px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.foot-part5 p{
+    margin-bottom: 10px;
+}
 }
