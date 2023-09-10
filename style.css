@@ -373,11 +373,12 @@ padding:12px 5px 0px 7px;
     padding:4px;
 }
 .nav_logo{
-    height: 7.6vh;
+    height: 55px;
     width:113px;
 }  
 .logo{
-height:7.5vh;
+height: 55px;
+width: 100%;
 }
 .deliver{
     display: none;
@@ -482,7 +483,7 @@ input{
 .option{
     display: inline-block;
     width:11%;
-    height:5.7vh;
+    height:38px;
     padding:0px 0px 0px 0.4vh;
     font-size: .8rem;
     border:none;
