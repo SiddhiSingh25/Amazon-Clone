@@ -369,15 +369,15 @@ padding:12px 5px 0px 7px;
 }
 .navbar{
     justify-content: space-around;
-    height:6vh;
+    height:8vh;
     padding:4px;
 }
 .nav_logo{
-    height: 5.5vh;
+    height: 7.6vh;
     width:113px;
 }  
 .logo{
-height:5.4vh;
+height:7.5vh;
 }
 .deliver{
     display: none;
@@ -481,8 +481,8 @@ input{
 }
 .option{
     display: inline-block;
-    width:10%;
-    height:38px;
+    width:11%;
+    height:5.7vh;
     padding:0px 0px 0px 0.4vh;
     font-size: .8rem;
     border:none;
@@ -501,22 +501,31 @@ input{
     justify-content: space-evenly;
     align-items: center;
     color: #ffffff;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
 }
 .all{
     width:58px;
     height: 39px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:flex-end;
+    margin-left: 102px;
+    gap: 4px;
+}
+.all-bar{
     font-size: 14px;
+}
+.sell{
+    width: 20px;
+
 }
 .nav-shop a{
     text-decoration: none;
     color: #ffffff;
     font-size:13px;
-}
-.sell{
-    display: none;
 }
 .hero-image{
     margin-top: 0;
@@ -584,24 +593,27 @@ input{
     color: #dddddd;
     height: 4vh;
     font-size: 12px;
-    justify-content: space-evenly;
-    align-items: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 .foot-part4 li{
-    margin-top: 10px;
-    display: inline-block;
-    margin-right: 20px;
+    list-style: none;
+    margin-top: 0px;
+    display: inline;
+    margin-right: 0px;
 }
 .foot-part5{
     background-color: #131a22;
     color: #dddddd;
     height: 35px;
     font-size: 12px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
+    
     
 }
 .foot-part5 p{
